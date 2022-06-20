@@ -6,7 +6,14 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Varela: ["Varela Round", "sans-serif"],
+        Noto: ["Noto Sans", "sans-serif"],
+        Roboto: ["Roboto Condensed", "sans-serif"],
+        Space: ["Space Grotesk", "sans-serif"],
+       },
+    },
   },
   plugins: [
     require('tailwind-scrollbar-hide')
