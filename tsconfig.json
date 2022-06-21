@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/About/about.js", "components/data.js", "components/technologies.jsx", "components/projects.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/About/about.js", "components/data.js", "components/technologies.jsx", "components/projects.jsx", "components/contact.jsx", "components/about.jsx", "components/header.jsx", "components/leftSide.jsx", "components/rightSide.jsx"],
   "exclude": ["node_modules"]
 }

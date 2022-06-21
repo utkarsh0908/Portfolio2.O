@@ -1,8 +1,10 @@
 import {Link} from 'react-scroll'
 const header = () => {
   return (
-    <div className="sticky top-0 z-50 justify-end hidden md:flex">
+    <div className="sticky z-50 top-0 justify-end hidden md:flex" data-aos="fade-down"
+    data-aos-delay="100">
         <Link activeClass="active"
+              
               to="about"
               spy={true}
               smooth={true}
@@ -12,6 +14,7 @@ const header = () => {
               01.</span>About
           </Link>
           <Link activeClass="active"
+              
               to="technologies"
               spy={true}
               smooth={true}
@@ -21,6 +24,7 @@ const header = () => {
               02.</span>Technologies
           </Link>
           <Link activeClass="active"
+              
               to="projects"
               spy={true}
               smooth={true}
@@ -30,6 +34,7 @@ const header = () => {
               03.</span>Projects
           </Link>
           <Link activeClass="active"
+              
               to="contact"
               spy={true}
               smooth={true}
