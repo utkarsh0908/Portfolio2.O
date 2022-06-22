@@ -12,6 +12,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       duration:300
     });
   }, []);
+
+  useEffect(()=>{
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", ()=>{
+      loader.style.display = "none";
+    })
+  }, [])
   return <Component {...pageProps} />
 }
 

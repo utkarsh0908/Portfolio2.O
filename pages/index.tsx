@@ -16,8 +16,8 @@ const Home = () => {
         <title>Utkarsh Singh - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className="flex flex-row w-full">
+      <div className="h-screen w-full z-50 fixed bg-black bg-[url('../public/loader.gif')] flex justify-center items-center bg-no-repeat bg-center bg-[length:200px_100px]" id="preloader"></div>
         <div className="h-screen sticky top-0 z-50 w-1/12 justify-end hidden md:flex md:flex-col">
           <LeftSide/>
         </div>

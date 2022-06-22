@@ -1,7 +1,7 @@
 import {Link} from 'react-scroll'
 const header = () => {
   return (
-    <div className="sticky z-50 top-0 justify-end hidden md:flex" data-aos="fade-down"
+    <div className="sticky z-40 top-0 justify-end hidden md:flex" data-aos="fade-down"
     data-aos-delay="100">
         <Link activeClass="active"
               
