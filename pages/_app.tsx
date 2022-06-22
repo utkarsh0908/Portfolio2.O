@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(()=>{
     var loader = document.getElementById("preloader");
     window.addEventListener("load", ()=>{
-      loader.style.display = "none";
+      loader!.style.display = "none";
     })
   }, [])
   return <Component {...pageProps} />
