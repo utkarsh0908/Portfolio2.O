@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require('tailwindcss/plugin')
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -13,9 +12,14 @@ module.exports = {
         Roboto: ["Roboto Condensed", "sans-serif"],
         Space: ["Space Grotesk", "sans-serif"],
        },
+      colors: {
+          "primary": "var(--primary-color)",
+          "secondary": "var(--secondary-color)",
+          "secondaryHover": "var(--secondaryHover-color)",
+          "main":"var(--main-color)"
+      },
     },
   },
   plugins: [
-    require('tailwind-scrollbar-hide')
   ],
 }

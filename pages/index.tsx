@@ -8,16 +8,17 @@ import RightSide from "../components/rightSide";
 import Header from "../components/header";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import {details} from '../edit/data';
 
 const Home = () => {
   return (
-    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-[#161616] text-[#FFFF00]">
+    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-primary text-secondary">
       <Head>
-        <title>Utkarsh Singh - Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{details.firstName} {details.lastName} - Portfolio</title>
+        <link rel="icon" href="./i.ico" />
       </Head>
+
       <div className="flex flex-row w-full">
-      <div className="h-screen w-full z-50 fixed bg-black bg-[url('../public/loader.gif')] flex justify-center items-center bg-no-repeat bg-center bg-[length:200px_100px]" id="preloader"></div>
         <div className="h-screen sticky top-0 z-50 w-1/12 justify-end hidden md:flex md:flex-col">
           <LeftSide/>
         </div>

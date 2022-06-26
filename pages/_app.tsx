@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../edit/globals.css'
 import type { AppProps } from 'next/app'
 import { useEffect } from "react";
 import AOS from "aos";
@@ -12,13 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       duration:300
     });
   }, []);
-
-  useEffect(()=>{
-    var loader = document.getElementById("preloader");
-    window.addEventListener("load", ()=>{
-      loader!.style.display = "none";
-    })
-  }, [])
   return <Component {...pageProps} />
 }
 
