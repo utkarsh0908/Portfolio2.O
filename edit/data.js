@@ -45,7 +45,7 @@ export const project = [
         img: "./1.png",
         des: "Peer to peer communication with no central server that stores our text messages, thus preventing interception. Made using NextJS, TailWindCSS & GunJS",
         tech: ["NextJS", "TailwindCSS", "GunJS"],
-        link: ""
+        link: "https://github.com/utkarsh0908/DecentralisedChat"
     },
     {
         id: "2",
