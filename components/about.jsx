@@ -16,8 +16,8 @@ const about = () => {
       </div>
 
       <div data-aos="fade-up" data-aos-delay="900" data-aos-anchor-placement="center-bottom">
-        <button className="duration-500 mt-16 mr-4 hover:bg-transparent bg-secondaryHover  hover:text-secondary text-main py-4 px-4 border border-transparent hover:border-secondary rounded  font-Space font-semibold"><a href="#contact">Get in Touch</a></button>
-        <a href="../edit/Resume.pdf" download="Resume.pdf"><button className="duration-500 mt-16 bg-transparent hover:bg-secondaryHover hover:text-main py-4 px-4 border border-secondary hover:border-transparent rounded  font-Space font-semibold">Resume</button></a>
+        <button className="duration-500 mt-16 mr-4 hover:bg-transparent bg-secondaryHover  hover:text-secondary text-main py-4 px-4 border border-transparent hover:border-secondary rounded-xl  font-Space font-semibold"><a href="https://www.youtube.com/">Get in Touch</a></button>
+        <a href="https://drive.google.com/file/d/1tl5dzigOZwhhDXGnAUjXT82AH-ju23xl/view?usp=sharing" target="_blank"><button className="duration-500 mt-16 bg-transparent hover:bg-secondaryHover hover:text-main py-4 px-4 border border-secondary hover:border-transparent rounded  font-Space font-semibold">Resume</button></a>
       </div>
     </div>
   );

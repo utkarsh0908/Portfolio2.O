@@ -16,7 +16,7 @@ const technologies = () => {
       <div data-aos="fade-up" data-aos-delay="600" className="flex flex-col md:flex-row">
         {tech.map((item) => (
           <div id={item.id}  className="flex flex-col justify-start mr-20 my-6 md:my-16 rounded-md">
-          <div className="text-main text-4xl mb-4">
+          <div className="text-main text-5xl mb-4">
             <item.icon/>
           </div>
             <div className="text-secondary font-semibold opacity-[.95] text-xl md:text-3xl">{item.title}</div>

@@ -1,11 +1,11 @@
-import { DiReact } from "react-icons/di"
+import { AiFillEdit } from "react-icons/ai"
 import {FaEthereum} from "react-icons/fa"
 import {SiCplusplus} from "react-icons/si"
 
 export const details = {
         firstName: "Utkarsh",
         lastName: "Singh",
-        role: "Web & BlockChain Developer!",
+        role: "Programmer",
         about: "Pre-Final Year Electronics and Communications Student at Indian Institute of Information Technology, Ranchi. Passionate about Web & BlockChain Dev!",
         email:"utkarsh13.ugec20@iiitranchi.ac.in",
         gitHub: "https://github.com/utkarsh0908",
@@ -16,13 +16,11 @@ export const details = {
 export const techMain = "I've worked with a range of technologies in the Development World. From Web to BlockChain"
 
 export const tech = [
-    
     {
         id: "1",
-        icon: () => <DiReact/>,
+        icon: () => <AiFillEdit/>,
         title: "MERN Stack",
         des: "Experience with MERN Stack, NextJS, TailwindCSS & NodeJS"
-
     },
     {
         id: "2",
@@ -64,3 +62,6 @@ export const project = [
         link: "https://github.com/utkarsh0908/WeatherApp"
     }
 ]
+
+
+
