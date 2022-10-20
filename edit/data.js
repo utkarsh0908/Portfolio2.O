@@ -5,7 +5,7 @@ import {SiCplusplus} from "react-icons/si"
 export const details = {
         firstName: "Utkarsh",
         lastName: "Singh",
-        role: "Programmer",
+        role: "Web Developer",
         about: "Pre-Final Year Electronics and Communications Student at Indian Institute of Information Technology, Ranchi. Passionate about Web & BlockChain Dev!",
         email:"utkarsh13.ugec20@iiitranchi.ac.in",
         gitHub: "https://github.com/utkarsh0908",
