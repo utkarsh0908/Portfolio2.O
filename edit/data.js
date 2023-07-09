@@ -6,7 +6,7 @@ export const details = {
         firstName: "Utkarsh",
         lastName: "Singh",
         role: "Web Developer",
-        about: "Pre-Final Year Electronics and Communications Student at Indian Institute of Information Technology, Ranchi. Passionate about Web & BlockChain Dev!",
+        about: "Pre-Final Year Electronics and Communications Student at Indian Institute of Information Technology, Ranchi. Passionate about Web Dev!",
         email:"utkarsh13.ugec20@iiitranchi.ac.in",
         gitHub: "https://github.com/utkarsh0908",
         instaGram: "https://www.instagram.com/utkarsh.0901/",
