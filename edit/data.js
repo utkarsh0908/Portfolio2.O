@@ -13,23 +13,17 @@ export const details = {
         linkedIn: "https://www.linkedin.com/in/utkarsh-singh-432228213/",
         twitter: ""
 }
-export const techMain = "I've worked with a range of technologies in the Development World. From Web to BlockChain"
+export const techMain = "I've worked with a range of technologies related to website development"
 
 export const tech = [
     {
         id: "1",
         icon: () => <AiFillEdit/>,
-        title: "MERN Stack",
-        des: "Experience with MERN Stack, NextJS, TailwindCSS & NodeJS"
+        title: "Web Development",
+        des: "Experience with MERN Stack, NextJS, TailwindCSS, Sanity, Firebase"
     },
     {
         id: "2",
-        icon: () => <FaEthereum/>,
-        title: "BlockChain",
-        des: "Experience with Truffle, Ganache, Web3.0 and Solidity"
-    },
-    {
-        id: "3",
         icon: () => <SiCplusplus/>,
         title: "Languages",
         des: "Proficient in C++, Javascript, Solidity & decent experience in Python, Java and C#"
@@ -39,14 +33,22 @@ export const tech = [
 export const project = [
     {
         id: "1",
-        title: "Decentralized Chat App",
-        img: "./1.png",
-        des: "Peer to peer communication with no central server that stores our text messages, thus preventing interception. Made using NextJS, TailWindCSS & GunJS",
-        tech: ["NextJS", "TailwindCSS", "GunJS"],
-        link: "https://github.com/utkarsh0908/DecentralisedChat"
+        title: "Table Tap",
+        img: "./4.png",
+        des: "Webapp which streamlines the restaurant ordering process by allowing customers to conveniently order food and beverages using a QR code on their table",
+        tech: ["NextJs", "Tailwind", "Firebase"],
+        link: "https://github.com/utkarsh0908/Table-Ordering"
     },
     {
         id: "2",
+        title: "Ecommerce Store",
+        img: "./1.png",
+        des: "Webapp that is an online marketplace which can eliminate the need for brick-and-mortar locations",
+        tech: ["NextJS", "TailwindCSS", "Sanity"],
+        link: "https://github.com/utkarsh0908/Store"
+    },
+    {
+        id: "3",
         title: "SecretHub",
         img: "./2.png",
         des: "WebApp to post your secrets anonymously. Made using ExpressJS, Bootstrap & MongoDB",
@@ -54,7 +56,7 @@ export const project = [
         link: "https://github.com/utkarsh0908/SecretHub"
     },
     {
-        id: "3",
+        id: "4",
         title: "WeatherApp",
         img: "./3.png",
         des: "WebApp to display the temperature of your city. Fetches data using RESTful API. Made using ExpressJS & Javascript",
@@ -62,6 +64,3 @@ export const project = [
         link: "https://github.com/utkarsh0908/WeatherApp"
     }
 ]
-
-
-
