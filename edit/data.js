@@ -1,5 +1,4 @@
 import { AiFillEdit } from "react-icons/ai"
-import {FaEthereum} from "react-icons/fa"
 import {SiCplusplus} from "react-icons/si"
 
 export const details = {
