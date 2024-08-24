@@ -1,8 +1,7 @@
-import {project} from '../edit/data'
 import {AiFillGithub} from 'react-icons/ai'
 import {BsArrowRightShort} from 'react-icons/bs'
 
-const projects = () => {
+const Projects = ({ data }) => {
   var v = 1;
   return (
     <div id="projects" className="flex min-h-screen flex-col py-2 font-Noto pl-12 md:pl-32"
@@ -11,7 +10,7 @@ const projects = () => {
       <div className="text-main font-semibold opacity-[.95] text-3xl md:text-6xl"  data-aos="fade-right">Projects</div>
 
       <div>
-        {project.map((item)=>( 
+        {data.projects.map((item)=>( 
           <div className='text-main flex flex-col md:flex-row mt-20  mb-20 md:mb-40'>
               <img src={item.img} className={ v%2==0 ? "md:hidden h-2/3 w-auto mr-10 ": "h-2/3 w-auto md:h-1/2 md:w-1/2 mr-10"}  id="image" data-aos="fade-right"  data-aos-delay="200" data-aos-duration="1000"/>
               <div className='flex flex-col' data-aos="fade-right" data-aos-delay="400">
@@ -36,4 +35,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;
