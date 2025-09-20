@@ -16,7 +16,7 @@ export const data = {
     email: "utkarsh13.ugec20@iiitranchi.ac.in",
     gitHub: "https://github.com/utkarsh0908",
     instaGram: "https://www.instagram.com/utk9rsh8/",
-    linkedIn: "https://www.linkedin.com/in/utkarsh-singh-432228213/",
+    linkedIn: "https://www.linkedin.com/in/utk0908/",
     twitter: "",
   },
   technologiesSection: {
@@ -38,7 +38,7 @@ export const data = {
         id: "3",
         icon: () => <SiCplusplus />,
         title: "Languages",
-        des: "Proficient in C++, Javascript, Solidity & decent experience in Python, Java and C#",
+        des: "Proficient in C++, Javascript & decent experience in Python, Java and C#",
       },
       
     ]
@@ -87,24 +87,6 @@ export const data = {
   }
 };
 
-export const techMain =
-  "I've worked with a range of technologies related to website development";
-
-
-export const tech = [
-  {
-    id: "1",
-    icon: () => <AiFillEdit />,
-    title: "Web Development",
-    des: "Experience with MERN Stack, NextJS, TailwindCSS, Sanity, Firebase",
-  },
-  {
-    id: "2",
-    icon: () => <SiCplusplus />,
-    title: "Languages",
-    des: "Proficient in C++, Javascript, Solidity & decent experience in Python, Java and C#",
-  },
-];
 
 export const project = [
   {

@@ -1,5 +1,3 @@
-import { tech, techMain } from "../edit/data";
-
 const technologies = ({ data }) => {
   return (
     <div
